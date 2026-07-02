@@ -18,7 +18,6 @@ export default function Equipo() {
             <div key={d.nombre} className="col-sm-6 col-lg-3">
               <div className="card border-0 shadow-sm text-center h-100 p-3">
 
-                {/* Avatar con iniciales */}
                 <div
                   className="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center mx-auto mb-3 fw-bold fs-5"
                   style={{ width: 64, height: 64 }}

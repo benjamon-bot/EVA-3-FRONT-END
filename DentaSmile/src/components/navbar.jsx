@@ -9,7 +9,7 @@ export default function Navbar() {
               🦷 DentaSmile
             </a>
 
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="Menu">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Menu">
               <span className="navbar-toggler-icon"></span>
             </button>
 
@@ -19,7 +19,7 @@ export default function Navbar() {
                 <li className="nav-item"><a className="nav-link" href="#equipo">Equipo</a></li>
                 <li className="nav-item"><a className="nav-link" href="#contacto">Contacto</a></li>
                 <li className="nav-item">
-                  <button className="btn btn-primary">
+                  <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCita" >
                     Agendar Cita
                   </button>
                 </li>

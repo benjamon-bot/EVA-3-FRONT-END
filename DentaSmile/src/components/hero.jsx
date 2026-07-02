@@ -10,7 +10,7 @@ export default function Hero() {
                 </p>
 
                 <div className="d-flex justify-content-center gap-2">
-                    <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#Modalcita">
+                    <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalCita">
                         Agenda tu cita
                     </button>
                     <a href="#tratamientos" className="btn btn-outline-primary btn-lg">

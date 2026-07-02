@@ -1,6 +1,6 @@
 const images = [
   { antes: '😐', despues: '😁', tratamiento: 'Blanqueamiento', resultado: '+7 tonos más claro' },
-  { antes: '🫤', despues: '🥰', tratamiento: 'Ortodoncia', resultado: 'Alineación perfecta' },
+  { antes: '🫤', despues: '😬', tratamiento: 'Ortodoncia', resultado: 'Alineación perfecta' },
 ]
 
 export default function Galeria() {

@@ -16,3 +16,36 @@ Note: This will impact Vite dev & build performances.
 ## Expanding the Oxlint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+
+
+instrucciones de instalacion
+
+# 🦷 DentaSmile — Clínica Dental
+
+# Requisito previo
+
+# Instalar Node.js:
+
+-winget install OpenJS.NodeJS.LTS
+
+# Instalar dependencias (Bootstrap y React Router incluidos)
+-npm.cmd install -g pnpm
+
+-pnpm.cmd install bootstrap
+
+-pnpm add bootstrap bootstrap-icons
+
+-pnpm add react-router-dom
+
+# en `main.jsx` importamos Bootstrap para que este disponible en la app:
+
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+- import 'bootstrap/dist/css/bootstrap.min.css'
+- import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import './index.css'
+import App from './App.jsx'
+
+
+
